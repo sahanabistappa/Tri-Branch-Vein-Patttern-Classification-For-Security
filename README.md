@@ -25,7 +25,8 @@ The vein structure near the bifurcation point of vein pattern, named the tri-bra
 vein structure, is explored and employed to improve the performance of template
 matching by the proposed user-specific threshold based filter framework.
 
-PROPOSED METHODOLGY
+#PROPOSED METHODOLGY
+
 The bifurcation point and its three local vein branches are powerful in the
 assistance to the template matching. We name one bifurcation point and its three
 local vein branches as the tri-branch vein structure. The structure will be extracted

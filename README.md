@@ -44,7 +44,7 @@ the whole vein pattern in matching. More importantly, the orientation of branche
 and the angles between two branches in one structure, and the distribution of
 multiple structures in vein patterns vary largely in impostor vein patterns.
 
-# WORKING PRINCIPLE
+# Working Principle
 
 Two key points involved in execution:
 1. How to define and extract the tri branch vein structure
@@ -72,7 +72,7 @@ following one step.
 The morphological dilation operation is performed on the single-pixel wide
 tri-branch vein structure. The structuring element is a 8×8 matrix with element value 1. The dot product between the dilated structure and the whole vein pattern is conducted to obtain the map of tri-branch vein structures.
 
-# User specific threshold based filter:
+# User specific threshold based filter
 The tri-branch vein structure is employed to filter the imposters for the probe
 image in the first level of the proposed framework, but the false rejection of
 genuine image should be avoided as much as possible. Therefore, the minimum genuine similarity score of training images may be a
@@ -98,7 +98,7 @@ be used as the threshold for each user.
 <img width="486" alt="Screenshot 2023-06-14 at 10 31 30 PM" src="https://github.com/sahanabistappa/Tri-Branch-Vein-Patttern-Classification-For-Security/assets/51372995/75f9b17c-795c-4105-a31f-1cb66da1dfe7">
 
 
-# COMPARISON
+# Comparison
 
 1. Comparison With Vein Feature Based Recognition
 The compared features are extracted from the vein patterns detected by different
@@ -117,7 +117,7 @@ extraction, i.e., thinning and denoising, costs a great part of time. The main r
 is that the deburring in denoising is performed twice owing to there being lots of
 burrs in the vein network extracted from low quality images.
 
-# FUTURE SCOPE
+# Future Scope
 
 Spatial Pyramid Pooling of Selective Convolutional Features for Vein
 Recognition:

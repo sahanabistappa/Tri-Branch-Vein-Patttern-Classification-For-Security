@@ -93,3 +93,59 @@ training images.
 are measured for each user, and the minimum value of C2m similarity scores will
 be used as the threshold for each user.
 2. Therefore, there are totally N thresholds for N enrolled users.
+
+# Final Output
+![image](https://github.com/sahanabistappa/Tri-Branch-Vein-Patttern-Classification-For-Security/assets/51372995/a5c5868a-3707-44e8-9c69-2e088558c46f)
+
+# COMPARISON
+
+1. Comparison With Vein Feature Based Recognition
+The compared features are extracted from the vein patterns detected by different
+methods shows that the proposed framework achieves the best performance. The
+main reason for such good performance lies in the fusion of local tri-branch vein
+structure and global vein pattern.
+
+2. Comparison With Typical Finger Vein Recognition Method
+Compared with the non-vein pattern based methods, the proposed framework only
+uses the vein pattern and its structure, without non-vein region, which can avoid
+the bad effect of the noises in non-vein region to the recognition performance.
+
+3. Time Cost Measurement
+The time cost of the structure extraction is very small. The first step in structure
+extraction, i.e., thinning and denoising, costs a great part of time. The main reason
+is that the deburring in denoising is performed twice owing to there being lots of
+burrs in the vein network extracted from low quality images.
+
+# FUTURE SCOPE
+
+Spatial Pyramid Pooling of Selective Convolutional Features for Vein
+Recognition:
+
+Unlike most of these studies which adopt activations of the fully connected
+layer of DNN as the image representation, convolutional activations is
+adopted as the region representation. A novel selective convolutional feature model based on spatial weighting is
+proposed to weigh the importance of local features at different regions for
+classification to acquire more robust and discriminative feature
+representation. Also enhances the discriminability of feature representation
+
+Medical Imaging
+
+It is a technique in which internal parts of the human body are
+clinically analyzed and create visual representation of body organs and
+tissue. This technology helps the doctor inject drip to the patient.
+
+Biometric Recognition for Authentication
+
+This technology can be helpful in biometric recognition authentication
+purposes. One can unlock their personal information or access confidential data with
+the help of unique vein structure security system
+
+# REFERENCES
+
+1. A Novel Finger Vein Recognition System Based on Enhanced Maximum
+Curvature Points
+Published in: 2018 IEEE 13th Image, Video, and Multidimensional Signal
+Processing Workshop (IVMSP)
+2. A Palm Vein Recognition System
+Published in: 2010 International Conference on Intelligent Computation
+Technology and Automation

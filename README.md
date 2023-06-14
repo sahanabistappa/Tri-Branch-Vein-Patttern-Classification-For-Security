@@ -95,7 +95,8 @@ be used as the threshold for each user.
 2. Therefore, there are totally N thresholds for N enrolled users.
 
 # Final Output
-![image](https://github.com/sahanabistappa/Tri-Branch-Vein-Patttern-Classification-For-Security/assets/51372995/a5c5868a-3707-44e8-9c69-2e088558c46f)
+<img width="486" alt="Screenshot 2023-06-14 at 10 31 30 PM" src="https://github.com/sahanabistappa/Tri-Branch-Vein-Patttern-Classification-For-Security/assets/51372995/75f9b17c-795c-4105-a31f-1cb66da1dfe7">
+
 
 # COMPARISON
 

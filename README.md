@@ -24,3 +24,21 @@ to detect the vein pattern.
 The vein structure near the bifurcation point of vein pattern, named the tri-branch
 vein structure, is explored and employed to improve the performance of template
 matching by the proposed user-specific threshold based filter framework.
+
+PROPOSED METHODOLGY
+The bifurcation point and its three local vein branches are powerful in the
+assistance to the template matching. We name one bifurcation point and its three
+local vein branches as the tri-branch vein structure. The structure will be extracted
+from the vein pattern and used to assist the template matching.
+In addition, to deeply explore the discrimination of the structure, the structure
+should be used independent of other vein points.
+1)The tri-branch vein structure is used in the first level of the framework to filter
+the imposters and give the candidates for the probe.
+2)The user-specific thresholds, not one common threshold, are used in filtering.
+3)The reasons for using the tri-branch vein structure, instead of the whole vein
+pattern, in the first level of the framework are twofold.
+
+Obviously, the tri-branch vein structure spends less time cost and space cost than
+the whole vein pattern in matching. More importantly, the orientation of branches
+and the angles between two branches in one structure, and the distribution of
+multiple structures in vein patterns vary largely in impostor vein patterns.

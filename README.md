@@ -52,6 +52,7 @@ Two key points involved in execution:
 Tri branch vein structure extraction:
 
 1. Thinning and denoising:
+
 ● The single pixel wide vein network is extracted front the vein network by
 the morphological vein thinning operation.
 ● In the vein network, the intersection of the burr and vein branch can be

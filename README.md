@@ -72,7 +72,7 @@ following one step.
 The morphological dilation operation is performed on the single-pixel wide
 tri-branch vein structure. The structuring element is a 8×8 matrix with element value 1. The dot product between the dilated structure and the whole vein pattern is conducted to obtain the map of tri-branch vein structures.
 
-User specific threshold based filter:
+# User specific threshold based filter:
 The tri-branch vein structure is employed to filter the imposters for the probe
 image in the first level of the proposed framework, but the false rejection of
 genuine image should be avoided as much as possible. Therefore, the minimum genuine similarity score of training images may be a
